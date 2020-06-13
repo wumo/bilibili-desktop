@@ -36,7 +36,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.cancel
 import tornadofx.*
 
-const val appName = "BiliBili Client"
+const val appName = "BiliBili Desktop"
 
 class MainUI : App(MainView::class, Style::class), CoroutineScope by uiScope {
   companion object {
